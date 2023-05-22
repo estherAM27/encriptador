@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>encriptador</title>
+    <link rel="stylesheet" href="./indexStyle.css">
+    <script src="./script.js"></script> 
+</head>
+<body>
+    <header>
+        <img height="140px" src="https://www.pandaancha.mx/plds/articulos/froala/data-encryption-580x326-163490740.jpg">
+    </header>
+    <main>
+        <label id="label1">introduce  tu texto a encriptar</label>
+        <br>
+        <textarea class="txtArea1" onkeyup="remplazar()" id="txtArea1"></textarea>
+        <br>
+        <button id="btnEncriptar" onclick="encriptarTexto()">encriptar</button>
+        <button id="btnDesencriptar" onclick="desencriptarTexto()"> desencriptar</button>
+        <br>
+        <label id="label2">texto encriptado</label>
+        <br>
+        <textarea class="txtArea2" id="txtArea2"></textarea>
+        <br>
+        <button id="copiar" onclick="copiarTexto()"> copiar</button>
+        <img class="img2" height="60px" src="https://media.alvarodeleon.net/2018/07/1530979941-b4477b53353bf081ab4a92d57cc4f390.png">   
+    </main>
+    
+</body>
+</html>
